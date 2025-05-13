@@ -5,6 +5,7 @@ include "./shared/functios.php";
 
 
 // select all courses
+// Commint From Hossam
   $courseQuery = "SELECT courses.*  , users.name as InstructorName from courses 
 		    INNER JOIN instrcutor_courses 
         	on courses.id = instrcutor_courses.courses_id
