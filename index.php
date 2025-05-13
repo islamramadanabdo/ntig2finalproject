@@ -19,6 +19,10 @@ include "./shared/functios.php";
   $instructorQuery = " SELECT * FROM users WHERE role =   'instructor' limit 3";
   $instructors = mysqli_query($GLOBALS['conn'] , $instructorQuery);
 
+
+  echo "eslam";
+
+
 ?>
 
 
