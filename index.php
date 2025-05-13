@@ -9,7 +9,7 @@ include "./shared/functios.php";
 		    INNER JOIN instrcutor_courses 
         	on courses.id = instrcutor_courses.courses_id
         INNER JOIN users 
-          on users.id = instrcutor_courses.instructor_id  ";
+          on users.id = instrcutor_courses.instructor_id LIMIT 3  ";
   $courses = mysqli_query($GLOBALS['conn'] ,$courseQuery);
 
 
